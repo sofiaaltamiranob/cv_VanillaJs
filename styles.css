@@ -1,0 +1,145 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0;
+}
+h2 {
+  font-weight: 500;
+  color: #000000;
+}
+.rosa {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+.infopersonal {
+  display: inline-block;
+  margin-top: 3vh;
+}
+
+.texto,
+.imagen {
+  display: inline-block;
+}
+
+.imagen {
+  margin-left: 60vw;
+}
+
+img{
+  height: 18vh;
+  border-radius: 15vh;
+}
+.inl {
+  display: inline;
+}
+.blck{
+  display:block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 12vh;
+}
+svg {
+  height: 6vh;
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 1vw;
+}
+.temas {
+  margin-right: 2vw;
+}
+.texto {
+  margin-left: 2vw;
+}
+.icon {
+  padding-left: 2vw;
+}
+a {
+  text-decoration: none;
+}
+.logo > h3,
+h4 {
+  display: block;
+}
+.texto > a {
+  display: block;
+  margin-bottom: 2vh;
+}
+h4>svg{
+  margin-right: 0.2vw;
+  height: 1.5vh;
+}
+
+h4>strong{
+  background-color: #ffffff;
+  border: solid 2px white;
+  border-radius: 5px;
+  color: #ff7f50;
+  cursor: pointer;
+}
+
+.lugar > svg,
+.aprendi > svg {
+  height: 2vh;
+  cursor: auto;
+}
+
+.lugar > a {
+  color: white;
+}
+
+.contacto>.texto>a{
+  color: #ffffff;
+}
+
+h3,h4{
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.circle{
+  display: inline;
+  position: sticky;
+}
+
+.circle>a{
+  display: inline-block;
+  position: sticky;
+  bottom: 0;
+  left:90vw;
+  border-radius: 4vh;
+  width: 8vh;
+  height: 8vh;
+}
+.icon-tabler-arrow-narrow-up{
+  padding: 1vh 1vh 1vh ;
+}
+
+.linked, .gith{
+  display: inline-block;
+}
+
+
+.linked>svg, .linked>a,
+.gith>a,
+.gith>svg{
+  display: block;
+}
+
+.gith{
+  margin-right: 5vw;
+}
+
+.linked>svg, 
+.gith>svg{
+  padding-left: 35%;
+}
+
